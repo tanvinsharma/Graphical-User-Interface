@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>recipeList</class>
+ <widget class="QDialog" name="recipeList">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>747</width>
+    <height>541</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="1" column="3">
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <widget class="QPlainTextEdit" name="nameList"/>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btnRecipe">
+       <property name="text">
+        <string>Get Recipes</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QListView" name="recList"/>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btnGrocery">
+       <property name="text">
+        <string>Get Grocery List</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPlainTextEdit" name="ingreList"/>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
